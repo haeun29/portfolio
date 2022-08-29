@@ -137,7 +137,7 @@ header nav a:hover {
 .workBtn a { 
     width: 40%;
     border: 1px solid #fff;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     transition: all 1s;
     padding: 16px;
@@ -173,7 +173,7 @@ header nav a:hover {
 .col .colText p { 
     font-family: 'Noto Sans KR';
     font-style: normal;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .col:nth-child(1) .colText h3 { 
