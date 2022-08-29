@@ -78,6 +78,14 @@ main {
     line-height: 150%;
 }
 
+.info .phone:hover a { 
+    color: #0071e3;
+}
+
+.info .e-mail:hover a { 
+    color: #03c75a;
+}
+
 
 
 #main-info { 
