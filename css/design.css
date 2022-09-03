@@ -1,0 +1,89 @@
+/* 디자인 웹 */
+
+@import url(./style.css);
+@font-face {
+    font-family: 'Wagon', serif;
+    src: url(../font/Wagon-Bold.otf);
+}
+
+
+header { 
+    width: 100%;
+    height: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+}
+
+header nav a { 
+    font-size: 50px;
+    margin-right: 60px;
+    /* outline: 1px solid red; */
+    padding: 20px ;
+}
+
+
+header .logo { 
+    height: 50%;
+}
+
+
+
+
+.logoImg {
+    animation: rotate_image 8s linear infinite;
+    transform-origin: 50% 50%;
+
+}
+
+@keyframes rotate_image{
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+section { 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    margin-bottom: 100px;
+    padding: 50px 0;
+}
+
+section img { 
+ width: 90%;
+   
+}
+
+ h1 {
+    font-family: 'Wagon', serif;
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+    padding: 50px 0 100px 0;
+
+}
+
+
+
+
+
+/* backtotop */
+
+#back-to-top { 
+    position: fixed;
+    bottom: 60px;
+    right: 100px;
+    z-index: 1;
+    opacity: 0.5;
+}
+
+
+#back-to-top:hover {
+    opacity: 1;
+  }

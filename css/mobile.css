@@ -13,6 +13,7 @@ header {
 }
 
 header nav { 
+    width: 100%;
     height: 100%;
     display: flex;
     justify-content: space-around;
@@ -22,7 +23,6 @@ header nav {
 header nav a { 
     font-size: 24px;
     /* outline: 1px solid red; */
-    padding: 10px 40px;
 }
 
 header nav a:hover { 
@@ -35,6 +35,9 @@ header nav a:hover {
 .logoImg {
     display: none;
 }
+
+
+
 
 
 
@@ -207,9 +210,117 @@ header nav a:hover {
 
 
 
+/* footer */
+
+footer { 
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .logoImg {
+    display: block;
+}
+
+
+footer  .logoImg {
+    animation: rotate_image 8s linear infinite;
+    transform-origin: 50% 50%;
+}
+
+@keyframes rotate_image{
+    100% {
+        transform: rotate(360deg);
+    }
+}
 
 
 
+
+#card-wrap {
+    width: 60%;
+    height: 50vh;
+    cursor: pointer;
+  
+}
+
+
+#card-wrap div {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+ 
+/*Transform*/
+
+#card-wrap {
+    transition: -webkit-transform 1s ease-in;
+    -webkit-transform-style: preserve-3d;
+}
+
+#card-wrap div {
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+}
+
+.card-A {
+    z-index: 100;
+}
+
+.card-A  img { 
+    width: 50%;
+}
+
+.card-B {
+    transform: rotateY(-180deg);
+
+}
+
+#card-wrap:hover {
+    transform: rotateY(-.5turn);
+}
+
+
+.card-B li:hover {
+   opacity: 0.5;
+
+}
+
+
+
+.card-B span {
+    display: none;
+}
+
+.card-B ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 20px;
+}
+
+.card-B ul li { 
+    width: 50%;
+    height: 100%;
+    /* outline: 1px solid red;  */
+    padding: 20px;
+}
+
+.card-B img { 
+    width: 100%;
+    filter: brightness(89%);
+}
 
 
 

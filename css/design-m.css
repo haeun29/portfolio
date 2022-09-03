@@ -1,0 +1,90 @@
+/* 디자인 모바일 */
+
+@import url(style.css);
+
+header { 
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px ;
+}
+
+header nav a { 
+    font-size: 24px;
+}
+
+
+
+header .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+}
+
+
+.logoImg {
+    width: 100%;
+    height: 100%;
+    animation: rotate_image 8s linear infinite;
+    transform-origin: 50% 50%;
+
+}
+
+@keyframes rotate_image{
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+section { 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    margin-bottom: 100px;
+    padding: 20px 0;
+}
+
+section img { 
+ width: 90%;
+   
+}
+
+ h1 {
+    font-family: 'Wagon', serif;
+    font-weight: 700;
+    font-size: 26px;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+
+/* backtotop */
+
+
+#back-to-top img { 
+    width: 60%;
+}
+
+#back-to-top { 
+    /* outline: 1px solid red; */
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1;
+    opacity: 0.5;
+    text-align: right;
+}
+
+
+#back-to-top:hover {
+    opacity: 1;
+  }

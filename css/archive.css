@@ -1,0 +1,117 @@
+/*아카이브-pc */
+
+@import url(style.css);
+
+@font-face {
+    font-family: 'Wagon', serif;
+    src: url(../font/Wagon-Bold.otf);
+}
+
+
+/* hedaer */ 
+
+
+header { 
+    width: 100%;
+    height: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+}
+
+header nav a { 
+    font-size: 30px;
+    margin-right: 60px;
+    /* outline: 1px solid red; */
+    padding: 20px ;
+}
+
+header nav a:hover { 
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 10px 20px;
+}
+
+header .logo { 
+    height: 50%;
+}
+
+.logoImg {
+    animation: rotate_image 8s linear infinite;
+    transform-origin: 50% 50%;
+}
+
+@keyframes rotate_image{
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+main { 
+    width: 100%;
+    height: calc(100vh - 160px);
+    padding-left: 60px;
+    padding-right: 60px;
+    overflow: hidden;
+}
+
+#archive { 
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+
+#archive .col { 
+    width: 33.3%;
+    height: 40vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+#archive .col a {
+    font-family: 'Wagon', serif;
+    font-weight: 700;
+    font-size: 3vw;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#archive div.col:nth-child(1) a{ 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/archive-col1.jpg) ;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  
+}
+
+#archive div.col:nth-child(2) a{ 
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/archive-col2.jpg);
+    background-size: 140%;
+    background-position:center 100%;
+    background-repeat: no-repeat;
+  
+}
+#archive div.col:nth-child(3) a{ 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/archive-col3.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+  
+
+#archive .col:hover a {
+    filter: brightness(150%);
+}
