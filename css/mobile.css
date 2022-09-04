@@ -269,12 +269,12 @@ footer  .logoImg {
 
 #card-wrap {
     transition: -webkit-transform 1s ease-in;
-    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
 }
 
 #card-wrap div {
     position: absolute;
-    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
 .card-A {
