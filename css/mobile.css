@@ -2,6 +2,11 @@
 
 
 @import url(./style.css);
+@font-face {
+    font-family: 'HalisGR';
+    src: url(../font/Ahmet\ Altun\ -\ HalisGR-Medium.otf);
+}
+
 
 /* hedaer */ 
 
@@ -179,7 +184,7 @@ header nav a:hover {
 }
 
 .col:nth-child(1) .colText h3 { 
-    font-family: 'HalisGR';
+     font-family: 'HalisGR', sans-serif;
 }
 
 .col:nth-child(2) .colText h3 { 
