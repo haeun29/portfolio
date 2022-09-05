@@ -153,6 +153,9 @@ main {
 #back-to-top  i { 
     font-size: 60px;
 }
+#back-to-top  i.on { 
+    color: #000;
+}
 
 
 #back-to-top:hover {

@@ -187,10 +187,12 @@ main {
 #back-to-top  i { 
     font-size: 50px;
 }
+#back-to-top  i.on { 
+    color: #000;
+}
 
 #back-to-top:hover {
     opacity: 1;
   }
-
 
 

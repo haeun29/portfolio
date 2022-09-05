@@ -1,27 +1,32 @@
 
 
-$(function(){
+$(function () {
     $('#back-to-top').hide();
 
-    $(window).scroll(function(){
-        if($(this).scrollTop() > 500){
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 500) {
             $('#back-to-top').fadeIn();
-        }
-        // else if($(this).scrollTop() ) { 
-        //     $('#back-to-top i').addClass('on');
-        // }
-        else { 
+        } else {
             $('#back-to-top').fadeOut();
         };
 
+        let footerY = $('footer').offset().top - 500;
+
+        if ($(this).scrollTop() >= footerY) {
+            $('#back-to-top i').addClass('on');
+        } else {
+            $('#back-to-top i').removeClass('on');
+        };
+
+        console.log($('footer').offset().top);
 
     });
 
 
 
 
-    $('#back-to-top').click(function(){
-        $('html, body').animate({scrollTop : 0}, 400);
+    $('#back-to-top').click(function () {
+        $('html, body').animate({ scrollTop: 0 }, 400);
         return false;
     });
 

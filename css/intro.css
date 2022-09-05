@@ -65,6 +65,7 @@ section img {
 
 
 
+
 /* backtotop */
 
 #back-to-top { 
@@ -78,6 +79,9 @@ section img {
 
 #back-to-top  i { 
     font-size: 60px;
+}
+#back-to-top  i.on { 
+    color: #000;
 }
 
 
