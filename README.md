@@ -6,8 +6,8 @@
 # 대표사진 
 
 ### 작품소개와 함께 제작 페이지에 대한 설명이 들어있습니다.
- 
-![대표사진](https://user-images.githubusercontent.com/105402303/187146892-f45afc6a-034c-4e45-9b83-1eda92ee82c7.png)
+
+ ![home 1](https://user-images.githubusercontent.com/105402303/188369507-ef17abb0-3660-4020-b0bc-c543f8dd390a.png)
 
 
 ## 상세설명
