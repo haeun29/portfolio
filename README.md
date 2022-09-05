@@ -7,7 +7,7 @@
 
 ### 작품소개와 함께 제작 페이지에 대한 설명이 들어있습니다.
 
-![home](https://user-images.githubusercontent.com/105402303/188370848-0656354b-8d43-47d9-8263-0a9cec150e3f.jpg)
+![home](https://user-images.githubusercontent.com/105402303/188371128-baee0583-3845-4bf7-9b24-f48ed16c4bc1.png)
 
 
 ## 상세설명
@@ -21,3 +21,10 @@
 
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=footer)
 
+## 사용라이브러리
+
+✅ jQuery
+
+✅ BootStrap Icon
+
+✅ AOS
