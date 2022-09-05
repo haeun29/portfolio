@@ -65,13 +65,9 @@ section img {
 
 
 
-
 /* backtotop */
 
 
-#back-to-top img { 
-    width: 60%;
-}
 
 #back-to-top { 
     /* outline: 1px solid red; */
@@ -83,7 +79,11 @@ section img {
     text-align: right;
 }
 
+#back-to-top  i { 
+    font-size: 50px;
+}
 
 #back-to-top:hover {
     opacity: 1;
   }
+

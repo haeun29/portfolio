@@ -1,13 +1,23 @@
+
+
 $(function(){
     $('#back-to-top').hide();
 
     $(window).scroll(function(){
         if($(this).scrollTop() > 500){
             $('#back-to-top').fadeIn();
-        }else { 
+        }
+        // else if($(this).scrollTop() ) { 
+        //     $('#back-to-top i').addClass('on');
+        // }
+        else { 
             $('#back-to-top').fadeOut();
         };
+
+
     });
+
+
 
 
     $('#back-to-top').click(function(){
@@ -15,19 +25,19 @@ $(function(){
         return false;
     });
 
+
+
+
     AOS.init();
 
-    const circle = document.querySelector("#circle");
+    // const circle = document.querySelector("#circle");
 
-      document.addEventListener("mousemove", (e) => {
-        const mouseX = e.clientX;
-        const mouseY = e.clientY;
-        circle.style.left = mouseX + "px";
-        circle.style.top = mouseY + "px";
-      });
-
-
-  
+    //   document.addEventListener("mousemove", (e) => {
+    //     const mouseX = e.clientX;
+    //     const mouseY = e.clientY;
+    //     circle.style.left = mouseX + "px";
+    //     circle.style.top = mouseY + "px";
+    //   });
 
 })
 

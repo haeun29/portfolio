@@ -138,6 +138,7 @@ main {
 }
 
 
+
 /* backtotop */
 
 #back-to-top { 
@@ -146,6 +147,11 @@ main {
     right: 100px;
     z-index: 1;
     opacity: 0.5;
+}
+
+
+#back-to-top  i { 
+    font-size: 60px;
 }
 
 

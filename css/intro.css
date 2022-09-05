@@ -65,7 +65,6 @@ section img {
 
 
 
-
 /* backtotop */
 
 #back-to-top { 
@@ -77,7 +76,11 @@ section img {
 }
 
 
+#back-to-top  i { 
+    font-size: 60px;
+}
+
+
 #back-to-top:hover {
     opacity: 1;
   }
-

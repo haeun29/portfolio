@@ -3,7 +3,7 @@
 @import url(./style.css);
 @font-face {
     font-family: 'Wagon', serif;
-    src: url(../font/Wagon-Bold.otf);
+    src: url(../font/Wagon-Bold.otf) format('opentype');
 }
 
 
@@ -72,7 +72,6 @@ section img {
 
 
 
-
 /* backtotop */
 
 #back-to-top { 
@@ -81,6 +80,11 @@ section img {
     right: 100px;
     z-index: 1;
     opacity: 0.5;
+}
+
+
+#back-to-top  i { 
+    font-size: 60px;
 }
 
 
