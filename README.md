@@ -7,7 +7,7 @@
 
 ### 작품소개와 함께 제작 페이지에 대한 설명이 들어있습니다.
 
-![home](https://user-images.githubusercontent.com/105402303/188371128-baee0583-3845-4bf7-9b24-f48ed16c4bc1.png)
+![home](https://user-images.githubusercontent.com/105402303/188371268-8751e98f-d129-4d6d-a3ef-c96d70c19e82.jpg)
 
 
 ## 상세설명
