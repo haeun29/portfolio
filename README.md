@@ -19,8 +19,6 @@
 - GitHub : 깃허브 버튼을 누르시면 해당 페이지의 깃허브 화면으로 넘어갈 수 있습니다.
 
 
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=footer)
-
 ## 사용라이브러리
 
 ✅ jQuery
@@ -28,3 +26,7 @@
 ✅ BootStrap Icon
 
 ✅ AOS
+
+
+
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=footer)
