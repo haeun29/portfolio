@@ -18,8 +18,6 @@ $(function () {
             $('#back-to-top i').removeClass('on');
         };
 
-        console.log($('footer').offset().top);
-
     });
 
 

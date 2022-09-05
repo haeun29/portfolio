@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <meta property="og:type" content="website">
+    <meta property="og:type" content="website">
     <meta property="og:url" content="https://haeun29.github.io/portfolio/">
     <meta property="og:title" content="김하은 포트폴리오">
     <meta property="og:description" content="Welcome to my SITE!">
     <meta property="og:image" content="./haeunkim.png">
-    
+
     <title>haeun Kim</title>
     <!-- pc.ver 819px 부터 (큰화면)-->
     <link 
@@ -30,6 +30,7 @@
     <!-- AOS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
    <script src="./js/main.js"></script>
+
 </head>
 <body>
         <header>
@@ -45,11 +46,18 @@
         <div id="intro">
          
             <div class="mainText">
-                <h1>Hello! I’m Haeun Kim </h1>
-                <h2>Would you like to see my portfolio?</h2>
+                <h1 
+                data-aos-delay="500"
+                data-aos="fade-up">Hello! I’m Haeun Kim </h1>
+                <h2 
+                data-aos-delay="1000"
+                data-aos="fade-down">Would you like to see my portfolio?</h2>
             </div>
         
-            <div class="arrowImg">
+            <div 
+            data-aos="fade-down"
+            data-aos-delay="1500"
+            class="arrowImg">
                 <img 
                 src="./images/arrow.png" alt="화살표">
             </div>
@@ -200,7 +208,7 @@
                     </li>
                     <li>   <a
                         target="_blank" 
-                        href="https://github.com/haeun29/portfolio"><i class="bi bi-github"></i> <span>https://github.com/haeun29/portfolio</span></a>
+                        href="https://github.com/haeun29"><i class="bi bi-github"></i> <span>https://github.com/haeun29</span></a>
                     </li>
                     <li>  <a href="tel:010-3671-8998"><i class="bi bi-telephone"></i> <span>010-3671-8998</span></a>
                     </li>
